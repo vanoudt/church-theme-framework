@@ -66,7 +66,8 @@ function ctfw_sermon_data( $post_id = null ) {
 		'video',		// URL to uploaded file, external file, external site with oEmbed support, or manual embed code (HTML or shortcode)
 		'audio',		// URL to uploaded file, external file, external site with oEmbed support, or manual embed code (HTML or shortcode)
 		'pdf',			// URL to uploaded file or external file
-		'has_full_text'
+		'has_full_text',
+		'references',
 	), $post_id );
 
 	// Get media player code
